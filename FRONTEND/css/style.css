@@ -1,13 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: white;
 }
 
 header {
-    background-image: url(../assets/img/3.jpg);
+    /*background-image: url(../assets/img/3.jpg);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(50px);
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.navbar ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: purple;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
 }
 
 .peluqueria {
@@ -33,5 +83,6 @@ header {
     background-attachment: fixed;
     background-size: cover;
 }
+
 
 
