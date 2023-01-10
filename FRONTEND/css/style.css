@@ -1,7 +1,37 @@
-body {
-    background-image: url(../assets/img/perro.jpg);
+body{
+    background-color: white;
+}
+
+header {
+    background-image: url(../assets/img/3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
+.peluqueria {
+    background-image: url(../assets/img/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.guarderia {
+    background-image: url(../assets/img/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nosotros {
+    background-image: url(../assets/img/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
