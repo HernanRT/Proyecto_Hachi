@@ -62,7 +62,7 @@ header {
 }
 
 .peluqueria {
-    background-image: url(../assets/img/1.jpg);
+    background-image: url(../assets/img/perro_peluqueria.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ header {
 }
 
 .guarderia {
-    background-image: url(../assets/img/2.jpg);
+    background-image: url(../assets/img/perro_guarderia.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ header {
 }
 
 .nosotros {
-    background-image: url(../assets/img/4.jpg);
+    background-image: url(../assets/img/perro_nosotros.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
